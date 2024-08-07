@@ -1,0 +1,31 @@
+{
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      // "args": ["-l"],
+      "args": ["-i"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      // "args": ["-l"],
+      "args": ["-i"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": ["tseslint"]
+}
